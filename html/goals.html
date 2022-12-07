@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/form_style.css">
+    <title>Хирургический центр</title>
+</head>
+
+<body>
+
+    <div class="form__container">
+
+        <div class="form__left__content">
+            <h1>Форма</h1>
+            <h2>На обращение</h2>
+            <p>Центр "Хирургическая спинальная инфекция"</p>
+        </div>
+        
+        <form action="http://localhost:4000/statements" method="post" class="form__right__content">
+
+            
+            
+                <input type="text" name=lastName required >
+                <input type="text" name="firstName" required>
+                <input type="text" name="patronymic" required>
+
+                <input type="text" name="gender" required >
+                <input type="number" name="age" required>
+                <input type="text" name="contraindications" required>
+                <input type="text" name="treatment" required >
+                <input type="text" name="hospital" required>
+        
+
+            
+
+            <button type="submit">Отправить</button> 
+        </form>
+    
+    </div>
+
+    
+    
+</body>
+
+</html>
