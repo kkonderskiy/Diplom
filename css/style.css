@@ -248,7 +248,7 @@ html, body{
 /* Center */
 
 .main__image__container{
-    background-image: url(./source/hospital.jpg) !important;
+    background-image: url(../source/hospital.jpg) !important;
     background-size: cover !important;
     position: relative;
     height: 450px;
