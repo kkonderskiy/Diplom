@@ -1,0 +1,50 @@
+
+  .nav-toggle {
+    display: none;
+    position: relative;
+
+    background: transparent;
+    border: 1px solid transparent;
+
+  }
+  
+  .nav-toggle:focus {
+    outline-width: 0;
+  }
+  
+  .nav-toggle [class*='bar-'] {
+    background: #E8AD1A;
+    display: block;
+
+    transform: rotate(0deg);
+    transition: .2s ease all;
+
+    border-radius: 4px;
+    height: 4px;
+    width: 30px;
+    margin-bottom: 7px;
+
+  }
+  
+  .nav-toggle .bar-bot {
+    margin-bottom: 0;
+  }
+  
+  .opened .bar-top {
+    
+            transform: rotate(45deg);
+            transform-origin: 0%;
+  }
+  .opened .bar-mid {
+    opacity: 0;
+  }
+  .opened .bar-bot {
+            transform: rotate(-45deg);
+            transform-origin: 0%;
+  }
+
+  @media (max-width: 980px){
+    .nav-toggle{
+        display: block;
+    }
+}

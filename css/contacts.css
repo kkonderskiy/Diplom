@@ -1,0 +1,21 @@
+.contacts__block>p{
+    font-size: 24px;
+    color: #00c5bf;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contacts__address{
+    margin-bottom: 15px;
+}
+.contacts__block>ul>li{
+    margin-bottom: 5px;
+}
+
+.contacts__block{
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.contacts__container{
+    margin-bottom: 40px;
+}
